@@ -4,19 +4,17 @@
     <meta charset="utf-8">
     <title>Novadays</title>
     <style>
-        .odd::first-line {
+        }
+        ul li:nth-child(odd) {
             background-color: gray;
         }
-        ul li:nth-child(odd)::first-line {
-            background-color: gray;
-        }
-        li ul li:nth-child(even) {
+        ul li:nth-child(even) {
             background-color: white;
         }
-        ul li:nth-child(3)::first-line, ul li:nth-child(5)::first-line {
+        ul li:nth-child(3), ul li:nth-child(5) {
             cursor: pointer;
         }
-        ul li:nth-child(4)::first-line {
+        ul li:nth-child(4) {
             background-color: lightcoral;
         }
     </style>
