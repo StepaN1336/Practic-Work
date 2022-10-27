@@ -4,16 +4,19 @@
     <meta charset="utf-8">
     <title>Novadays</title>
     <style>
+        .odd {
+            background-color: gray;
+        }
         ul li:nth-child(odd)::first-line {
             background-color: gray;
         }
         li ul li:nth-child(even) {
             background-color: white;
         }
-        ul li:nth-child(3), li:nth-child(5) {
+        ul li:nth-child(3), ul li:nth-child(5) {
             cursor: pointer;
         }
-        ul li:nth-child(4) {
+        ul li:nth-child(4)::first-line {
             background-color: lightcoral;
         }
     </style>
@@ -23,7 +26,7 @@
         <a href= "index.html">Назад на головну</a> 
         <h2>Мій типовий список покупок</h2>
         <ul>
-            <li>Мучні продукти:
+            <li class="odd">Мучні продукти:
                 <ul>
                 <li>Круасани</li>
                 <li>Хліб</li>
@@ -36,7 +39,7 @@
                 <li>Масло</li>
     </ul>
     </li>
-            <li>Овочі:
+            <li class="odd">Овочі:
                 <ul>
                     <li>Картопля</li>
                     <li>Огірки</li>
