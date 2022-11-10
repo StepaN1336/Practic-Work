@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="utf-8">
+    <title>Friends</title>
+    <style>
+        table{
+            table-layout: fixed;
+            width: 50%;
+            border-collapse: collapse;
+            border: 2px solid black;
+        }
+        th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            text-align: center;
+        }
+        table td:nth-child(odd) {
+            background-color: gray;
+        }
+        table td:nth-child(3):hover, td:nth-child(5):hover {
+            cursor: pointer;
+        }
+        table td:nth-child(4) {
+            background-color:lightcoral;
+        }
+        h1 {
+            text-align: center;
+            font-size: 22px;
+        }
+        #back {
+            font-style: italic;
+        }
+        h2 {
+            text-align: center;
+        }
+        th {
+            text-align: center;
+            background-color: green;
+            color:crimson;
+            font-weight: bold; 
+        }
+        .last {
+            text-align: right;
+        }
+    </style>
+    </head>
+    <body>
+<h1>Друзі Сигіля Степана Зіновійовича</h1>
+<a href="index.html" id="back">Назад на головну</a>
+<h2>Мої друзі</h2>
+<div>
+    <table>
+        <tr>
+            <th>Прізвище</th>      
+            <th>Ім'я</th>       
+            <th>Дата народження</th>     
+            <th>Адреса проживання</th>     
+            <th>Контактний телефон</th>
+        </tr>
+        <tr>
+            <td>Крицький</td>      
+            <td>Євген</td>      
+            <td>11.11.2007</td>          
+            <td>Грушевського 10</td>       
+            <td>0 (68) 078 32 51</td>
+        </tr>
+        <tr>
+            <td>Мельник</td>       
+            <td>Дмитро</td>     
+            <td>28.10.2004</td>          
+            <td>Шептицького 81</td>        
+            <td>0 (98) 421 68 54</td>
+        </tr>
+        <tr>
+            <td>Семенців</td>
+            <td>Михайло</td>    
+            <td>13.11.2004</td>          
+            <td>Володимира Вел. 21</td>    
+            <td>0 (98) 574 43 90</td>
+        </tr>
+        <tr>
+            <td class="last">Медик</td>         
+            <td class="last">Михайло</td>    
+            <td class="last">04.03.2005</td>          
+            <td class="last">Степана Бандери 35</td>    
+            <td class="last">0 (68) 621 84 71</td>
+        </tr>
+        </table>
+    </div>
+</body>
+</html>
