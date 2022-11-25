@@ -4,6 +4,7 @@ h1 {
 div {
     background-color: cadetblue;
     border: 2px solid black;
+    margin: auto;
 }
 h2 {
     border: 2px solid black;
