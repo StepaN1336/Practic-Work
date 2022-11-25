@@ -111,7 +111,7 @@ h2 {
         .col-lw-9, .col-lw-10, .col-lw-11, .col-lw-12 {
         float: left;
         border: 2px solid black;
-        margin: auto;
+        margin-bottom: 10px;
     }
         .col-lw-1 {
         width: 8.33%;
