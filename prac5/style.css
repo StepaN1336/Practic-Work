@@ -70,16 +70,13 @@ h2 {
         }
         #div-1 {
             float: left;
-            clear: both;
         }
         #div-2 {
             float: right;
-            clear: both;
         }
         #div-3 {
             position: absolute;
             bottom: 10px;
-            clear: both;
         }
         .col-md-1 {
             width: 8.33%;
