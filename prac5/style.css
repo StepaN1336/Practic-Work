@@ -112,7 +112,7 @@ h2 {
             float: right;
         }
         #div-3 {
-            position: absolute;
+            position: relative;
             bottom: 10px;
             width: 83.33%;
         }
