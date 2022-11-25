@@ -1,5 +1,5 @@
 h1 {
-    text-align: center;
+    text-align: right;
 }
 
 div {
@@ -59,7 +59,7 @@ div {
     }
 
     .col-lg-4 {
-        width: 30.33%;
+        width: 30.333%;
     }
 
     .col-lg-5 {
