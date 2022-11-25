@@ -69,6 +69,10 @@ h2 {
         border: 2px solid black;
         margin: auto;
     }
+        #div-3 {
+            position: absolute;
+            bottom: 40px;
+        }
         .col-md-1 {
         width: 8.33%;
     }
