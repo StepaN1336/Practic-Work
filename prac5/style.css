@@ -70,6 +70,7 @@ h2 {
         }
         #div-1 {
             float: left;
+            clear: right;
         }
         #div-2 {
             float: right;
