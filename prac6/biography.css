@@ -1,3 +1,20 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.row{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+article{
+    font-size: 120%;
+    border: 1px solid;
+    background-color: lightblue;
+}
 .Button:link, .Button:visited {
     color: white;
     text-decoration: none;

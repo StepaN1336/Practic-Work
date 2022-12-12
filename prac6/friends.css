@@ -41,11 +41,11 @@ th {
     .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8,
     .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12
 
-    th {
+    #tr-1 {
         font-size: 130%;
     }
 
-    td {
+    .ottr {
         font-size: 120%;
     }
 
@@ -102,11 +102,11 @@ th {
     .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8,
     .col-md-9, .col-md-10, .col-md-11, .col-md-12 
 
-    th {
+    #tr-1 {
         font-size: 120%;
     }
     
-    td {
+    .ottr {
         font-size: 110%;
     }
 
@@ -163,6 +163,10 @@ th {
     .col-lw-1, .col-lw-2, .col-lw-3, .col-lw-4, .col-lw-5, .col-lw-6, .col-lw-7, .col-lw-8,
     .col-lw-9, .col-lw-10, .col-lw-11, .col-lw-12 
 
+    .ottr {
+        font-size: 110%;
+    }
+
     .col-lw-1 {
        width: 8.33%;
     }
@@ -173,7 +177,6 @@ th {
     
     .col-lw-3 {
         width: 25%;
-        font-size: 110%;
     }
     
     .col-lw-4 {
