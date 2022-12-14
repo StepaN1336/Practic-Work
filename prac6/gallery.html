@@ -1,19 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-    <link rel="stylesheet" href="gallery.css">
+<head>
+    <link rel="stylesheet" href="style.css" />
     <meta charset="utf-8">
     <title>Gallery</title>
-    </head>
-    <body>
-        <h1>Галерея Сигіля Степана Зіновійовича</h1>
-        <a href="index.html" id="back">Назад на головну</a>
-        <h2>Мої зображення</h2>
-        <h3 id="inFol">Зображення у цій папці</h3>
-        <img src="640x480.gif" width="640" height="480" alt="Image in this folder">
-        <h3 id="outFol">Зображення у папці</h3>
-        <img src="images/640x480.gif" width="640" height="480" alt="Image in folder">
-        <h3 id="onlImg">Зображення онлайн</h3>
-        <img src="https://place-hold.it/1280x1024" width="1280" height="1024" alt="Online image">
+</head>
+<body>
+    <h1>Галерея Сигіля Степана Зіновійовича</h1>
+    <a href="index.html" id="back">Назад на головну</a>
+    <h2>Мої зображення</h2>
+    <div class="col-lg-11 col-md-11 col-lw-11 flex">
+        <div class="col-md-4 col-lw-11">
+            <h3 id="inFol">Зображення у цій папці</h3>
+            <img id="picIn" src="640x480.gif" width="640" height="480" alt="Image in this folder">
+        </div>
+        <div class="col-md-4 col-lw-11">
+            <h3 id="outFol">Зображення у папці</h3>
+            <img id="picInF" src="images/640x480.gif" width="640" height="480" alt="Image in folder">
+        </div>
+        <div class="col-md-7 col-lw-11">
+            <h3 id="onlImg">Зображення онлайн</h3>
+            <img id="picOn" src="https://place-hold.it/1280x1024" width="1280" height="1024" alt="Online image">
+        </div>
+    </div>
 </body>
 </html>
