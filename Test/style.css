@@ -1,6 +1,6 @@
 div:nth-of-type(1) {
     background-color: burlywood;
-    color:crimson;
+    color:aqua;
 }
 
 div:nth-of-type(2) {
@@ -10,10 +10,12 @@ div:nth-of-type(2) {
 
 div:nth-of-type(3) {
     background-color:mediumturquoise;
+    color:darkred;
 }
 
 div:nth-of-type(4) {
     background-color:mediumpurple;
+    color:chocolate;
 }
 
 h3:nth-of-type(1) {
