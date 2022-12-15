@@ -1,9 +1,11 @@
 div:nth-last-of-type(1) {
     background-color: burlywood;
+    color:crimson;
 }
 
 div:nth-last-of-type(2) {
     background-color:darkolivegreen;
+    color:darkgreen;
 }
 
 div:nth-last-of-type(3) {
@@ -14,22 +16,22 @@ div:nth-last-of-type(4) {
     background-color:mediumpurple;
 }
 
-caption:nth-of-type(1) {
+h3:nth-of-type(1) {
     background-color: brown;
     width: 200px;
 }
 
-caption:nth-of-type(2) {
+h3:nth-of-type(2) {
     background-color: chartreuse;
     width: 200px;
 }
 
-caption:nth-of-type(3) {
+h3:nth-of-type(3) {
     background-color: blue;
     width: 200px;
 }
 
-caption:nth-last-of-type(4) {
+h3:nth-last-of-type(4) {
     background-color: blueviolet;
     width: 200px;
 }
