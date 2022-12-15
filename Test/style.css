@@ -1,0 +1,15 @@
+div:nth-last-of-type(1) {
+    background-color: burlywood;
+}
+
+div:nth-last-of-type(2) {
+    background-color:darkolivegreen;
+}
+
+div:nth-last-of-type(3) {
+    background-color:mediumturquoise;
+}
+
+div:nth-last-of-type(4) {
+    background-color:mediumpurple;
+}
