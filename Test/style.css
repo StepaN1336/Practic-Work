@@ -28,49 +28,57 @@ div {
     flex-flow: row wrap-reverse;
 }
 
+h1, h2, #h3-0 {
+    font-family: 'Roboto', sans-serif;
+}
 
 #h3-1 {
     background-color: brown;
     width: 200px;
-    height: 25px;
+    height: 33px;
     color: aquamarine;
     position: relative;
     top: 24px;
     font-size: 24px;
+    font-family: 'Oswald', sans-serif;
 }
 
 #h3-2 {
     background-color: chartreuse;
     width: 200px;
-    height: 25px;
+    height: 33px;
     color: dimgrey;
     position: relative;
     top: 24px;
     font-size: 24px;
+    font-family: 'Oswald', sans-serif;
 }
 
 #h3-3 {
     background-color: blue;
     width: 200px;
-    height: 25px;
+    height: 33px;
     color: gold;
     position: relative;
     top: 24px;
     font-size: 24px;
+    font-family: 'Oswald', sans-serif;
 }
 
 #h3-4 {
     background-color: brown;
     width: 200px;
-    height: 25px;
+    height: 33px;
     color: blanchedalmond;
     position: relative;
     top: 24px;
     font-size: 24px;
+    font-family: 'Oswald', sans-serif;
 }
 
 li, table, p {
     font-size: 20px;
+    font-family: 'La Belle Aurore', cursive;
 }
 
 @media (min-width: 1200px) {
