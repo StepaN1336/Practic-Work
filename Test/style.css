@@ -23,8 +23,8 @@ div:nth-of-type(4) {
     width: 200px;
     color:aquamarine;
     position: relative;
-    top: 50px;
-    clear: right;
+    top: 52px;
+    clear: both;
 }
 
 #h3-2 {
